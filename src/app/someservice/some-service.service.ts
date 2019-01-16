@@ -20,8 +20,8 @@ export class SomeServiceService {
   }
 
   public get counterObject(): CounterObject {
-    // return this._counterObject;
-    return Object.assign({}, this._counterObject);
+    return this._counterObject;
+    // return Object.assign({}, this._counterObject);
   }
 
   constructor() {
